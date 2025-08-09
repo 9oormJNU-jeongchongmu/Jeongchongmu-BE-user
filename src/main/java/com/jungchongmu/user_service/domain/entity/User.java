@@ -38,7 +38,6 @@ public class User {
     @Column(nullable = false, length = 50)
     private String role;
 
-    // Enum 정의 필요
     public enum UnitType {
         DEPARTMENT, CLUB, ASSOCIATION
     }
